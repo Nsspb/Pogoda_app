@@ -1,0 +1,16 @@
+{
+  "name": "pogoda_2",
+  "version": "2.0.0",
+  "description": "app weather home version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "css",
+    "node.js"
+  ],
+  "author": "Konstantin Zubenko",
+  "license": "ISC"
+}
