@@ -13,7 +13,9 @@
     align-items: center;
     padding: 20px;
     overflow: hidden;
-    background: linear-gradient(#CB356B, #BD3F32);
+    /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url(https://i.pinimg.com/736x/4b/f9/28/4bf928940a201b4b5cb66bfa03d0ceb6.jpg);
+    background-size: cover;
   }
   
   .app {

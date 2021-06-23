@@ -8,8 +8,7 @@ module.exports =  async function (city){
 
     const KEY = 'e644ee2b4c2b5a3d2e1226ccdd4a3cd0'
     const uri = 'http://api.openweathermap.org/data/2.5/weather'
-    // const uri = 'http://api.openweathermap.org/data/2.5/weather'
-    const options = {
+        const options = {
         uri,
         qs: {
             appid: KEY,
@@ -19,27 +18,17 @@ module.exports =  async function (city){
        json: true
     }
 
-try {
+    try {
     const data = await rp(options)
     const celsius = (data.main.temp - 32) * 5/9
-
-
+    
     return {
         weather: `${data.name}: ${celsius.toFixed(0)}`,
         error: null
-    }
-
-} catch (error) {
-    // console.log(error)
+    }} 
+    
+    catch (error) {
     return {
-
         weather: null,
         error: error.error.message
-    }
-
-}
-
-
-
-   
-} 
+    }}} 
